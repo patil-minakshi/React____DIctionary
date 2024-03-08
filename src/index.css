@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+
+  min-height: 100vh;
+
+  color:black;
+}
+
+.Nav_container {
+  background-color: black;
+  height: 139px;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  width: 171px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  margin: 0 0 0 1em;
+  font-size: 40px;
+  font-family: inter;
+}
+
+.Search_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 0 10px 0 0;
+  top: 70px;
+  position: relative;
+  min-width: 350px;
+}
+
+.Go_btn {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: none;
+  color: white;
+  border: 0.2px solid white;
+}
+
+.Input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 285px;
+
+}
+
+.Right_search {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  align-items: center;
+  margin-right: 18px;
+}
+
+h1 {
+  text-align: center;
+  width: 200px;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.Word_div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+p {
+  margin: 16px 0;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+   
+
+}
+
+.Defination_div {
+  display: block;
+    margin: auto;
+    width: 60%;
+}
+
+h3 {
+  text-align: left;
+   
+  border: 0.1px solid black;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  left: 50px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+ 
