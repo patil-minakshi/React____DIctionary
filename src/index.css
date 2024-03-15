@@ -7,41 +7,69 @@ body {
 
 
   min-height: 100vh;
-
+/* background-color: #bbbbbb; */
   color:black;
 }
 
+.audio{
+  color: #4040ff;;
+  cursor: pointer;
+}
+
+.Line {
+    height: 120px;
+    width: 100%;
+    background-color: rgba(133, 54, 235, 1);
+    opacity: 90%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+    color: white;
+}
+
+
 .Nav_container {
-  background-color: black;
-  height: 139px;
-  color: white;
+  background-color:   rgba(133, 54, 235, 1);
+  height: 175px;
+  color: black;
   font-size: 18px;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 25px 25px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+   
 }
 
 .heading {
-  width: 171px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 30px;
-  margin: 0 0 0 1em;
-  font-size: 40px;
-  font-family: inter;
+    width: 380px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    color: white;
+    /* margin: 0 0 0 1em; */
+    font-size: 45px;
+    font-family: inter;
 }
+
+ .name{
+  color: white;
+ background: none;
+ width: 305px;
+ }
+
+
 
 .Search_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
   margin: 0 10px 0 0;
-  top: 70px;
+  top: 40px;
   position: relative;
   min-width: 350px;
 }
@@ -49,7 +77,7 @@ body {
 .Go_btn {
   padding: 10px;
   border-radius: 8px;
-  border: none;
+  border: none; 
   background: none;
   color: white;
   border: 0.2px solid white;
@@ -60,6 +88,7 @@ body {
   border-radius: 8px;
   border: none;
   width: 285px;
+  border: 1px solid grey
 
 }
 
@@ -69,16 +98,17 @@ body {
   width: 370px;
   align-items: center;
   margin-right: 18px;
+ 
 }
 
-h1 {
+h2 {
   text-align: center;
-  width: 200px;
-  background-color: black;
-  color: white;
-  padding: 6px;
-  border-radius: 10px;
-  margin: 15px 0;
+    width: 200px;
+    background-color:rgba(219, 227, 232, 1);
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
 .Word_div {
@@ -98,22 +128,47 @@ p {
 
 }
 
-.Defination_div {
+
+.Defination_main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Defination_div{
+  width: 800px;
+  /* margin: 15px 0; */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: rgb(229 234 253);
+  color: #242424;
+}
+
+.Example_div {
   display: block;
     margin: auto;
     width: 60%;
 }
 
 h3 {
-  text-align: left;
-   
-  border: 0.1px solid black;
-  width: 200px;
-  text-align: center;
-  position: relative;
-  left: 50px;
-  padding: 5px;
-  border-radius: 10px;
+  text-align: left; 
+    border: 0.1px solid rgba(22, 66, 221, 1);
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(96 125 225);
 }
 
- 
+.Footer_div{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(187 204 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
